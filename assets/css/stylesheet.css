@@ -48,9 +48,40 @@ aside {
     width: 25%;
 }
 
-#large-image {
- height: 50%;
- width:75%;
- align-self: center;
+h2 {
+    border: 10% 25% 10% 0% ;
+    border-color: black;
+    border-right-style: solid;
 }
 
+#main-image {
+    width: 75%;
+    height: 50%;
+    align-self: center;
+}
+
+.small-image {
+    width: 33%;
+    height: 50%;
+    align-self: center;
+}
+
+#about-me {
+    display: inline-flex;
+}
+
+#about-me  p {
+    flex-wrap: wrap;
+    text-size: 20px;
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#work {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+img {
+    align-self: center;
+}
