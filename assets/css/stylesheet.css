@@ -1,12 +1,56 @@
-@media screen and (max-width: 926px) {
-    
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
 }
 
-@media screen and (max-width: 768px) {
-    
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: grey;
+    padding: 2%;
+    flex-wrap: wrap;
 }
 
-@media screen and(max-width: 565px) {
+h1 {
+    margin: 0% ;
+    align-self: flex-start;
+    font-size: 200%;
+    color: rgb(102, 110, 212);
+    background-color: rgb(92, 88, 88);
+    padding: 20px;
+}
 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+    list-style-type: none;
+}
+
+nav a {
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    display: inline;
+    margin: 2%;
+    width: 25%;
+}
+
+#large-image {
+ height: 50%;
+ width:75%;
+ align-self: center;
 }
 
