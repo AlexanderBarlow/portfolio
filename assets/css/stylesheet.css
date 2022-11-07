@@ -122,3 +122,26 @@ article img {
     align-self: center;
 }
 
+footer {display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 60%;
+    border-left: 2px solid #000;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+footer li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5%;
+}
+
