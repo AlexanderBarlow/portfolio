@@ -111,13 +111,14 @@ article img {
 
 #main-image {
     flex: 0 0 75%;
-    width: 900px;
+    width: 895px;
+    height: 400px;
     flex-direction: row;
 }
 
 .small-image {
     flex: 0 0 45%;
-    width: 400px;
+    width: 405px;
     height: 300px;
     align-self: center;
 }
