@@ -8,11 +8,17 @@ body {
 
 
 header {
-    flex: 0 0 100%;
     display:flex;
+    flex: 0 0 100%;
     color: whitesmoke;
     background-color: grey;
     padding: 2%;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -21,17 +27,25 @@ h1 {
     flex-wrap: wrap;
     flex: 0 0 20%;
     margin: 0% ;
-    align-self: flex-start;
+    align-self: center;
     font-size: 200%;
     color: rgb(102, 110, 212);
     background-color: rgb(92, 88, 88);
     padding: 10px;
 }
 
+header img {
+    flex-flow: row wrap;
+    justify-content: right;
+    height: 100%;
+    width: 30%;
+    border-radius: 2%;
+}
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 75%;
+    flex: 0 0 60%;
     flex-direction: row;
 }
 
