@@ -7,7 +7,8 @@ This website is a personal portfolio for Alexander Barlow. It lists a quick "Abo
 
 ## Installation
 
-Visit the website via this url:
+Visit the website via this url: https://alexanderbarlow.github.io/portfolio/
+Visit the GitHub Repo via this url : https://github.com/AlexanderBarlow/portfolio
 
 ## Usage
 
