@@ -117,7 +117,7 @@ article img {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    border: 2px solid #000;
+    border: 2px solid rgb(67, 188, 224);
     justify-content: center;
 }
 
@@ -160,102 +160,424 @@ footer li {
     margin: 5%;
 }
 
-@media screen and (max-width 926px){
-    h1 {
+@media screen and (max-width: 1296px){
+    body {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 0 0 20%;
-        margin: 0% ;
-        align-self: center;
-        font-size: 200%;
-        color:black;
-        background-color: rgb(92, 88, 88);
-        padding: 10px;
+        flex-flow:row wrap;
+        flex: 0 0 100%;
+        width: 100%;
+        justify-content: center;
     }
 
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex: 0 0 60%;
-        flex-direction: row;
-    }
-
-    aside {
+    header {
         display: flex;
         flex-flow: row wrap;
-        flex: 0 0 15%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-right: 5%;
+        flex: 0 0 100%;
+        width: 100%;
+        justify-content: center;
+        justify-content: space-between;
     }
     
-    
-    article {
+    nav {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 0 0 50%;
-        border-left: 2px;
-        padding-left: 30px;
-        border-color: black;
-        border-left-style: solid;
-        align-self: center;
+        flex-flow: row wrap;
+        flex: 0 0 60%;
     }
-
-    #main-image {
-        flex: 0 0 75%;
-        width: 895px;
-        height: 400px;
-        flex-direction: row;
-    }
-
-   .small-image {
-    flex: 0 0 45%;
-    width: 405px;
-    height: 300px;
-    align-self: center;
-}
-
-footer ul {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 0 0 60%;
-    border-left: 2px solid #000;
-    justify-content: center;
-    justify-content: space-between;
-}
-}
-
-@media screen and (max-width 768){
+    
     h1 {
-        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 20%;
     }
-
+    
+    header img {
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 5%;
+        align-items: center;
+    }
+    
     nav ul {
-        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+        justify-content: center;
     }
 
+    li {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    }
+    
+    nav a {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    
+    }
     aside {
         width: 100%;
-
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    }
+    
+    #about-me {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    
+    }
+    
+    #about-me  p {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    }
+    
+    
     #work {
         width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
     }
     
     article {
         width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+        justify-content: center;
+        align-items: center;
     }
-
+    
+    article img {
+        flex: 0 0 100%;
+        align-items: center;
+    }
+    
+    
     #main-image {
+        width: 500px;
+        height: 400px;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    .small-image {
+        width: 500px;
+        height:400px;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    }
+    
+    
+    footer ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+     
+    }
+    
+    footer li {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 50%;
+    }
+}
+
+
+@media screen and (max-width: 926px){
+    body {
+        width: 100%
+    
+    }
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
         width: 100%;
     }
-
-   .small-image {
-    width: 100%;
+    
+    nav {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    h1 {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    header img {
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
     }
 
-footer ul {
-    width: 100%;
+    li {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
     }
+    
+    nav a {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    #about-me {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    
+    }
+    
+    #about-me  p {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    #work {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    article {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    article img {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    #main-image {
+        width: 450px;
+        height: 350px
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    .small-image {
+        width: 450px;
+        height: 450px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    footer ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+     
+    }
+    
+    footer li {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    body {
+        width: 100%
+    
+    }
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    
+    nav {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    h1 {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    header img {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+
+    li {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    nav a {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    #about-me {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    
+    }
+    
+    #about-me  p {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    #work {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    article {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    article img {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    #main-image {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    .small-image {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
+    
+    footer ul {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+     
+    }
+    
+    footer li {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 0 0 100%;
+    }
+    
 }
